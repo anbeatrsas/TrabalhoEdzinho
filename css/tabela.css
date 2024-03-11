@@ -1,0 +1,17 @@
+td .info {
+
+    display: flex;
+    text-align: end;
+    
+    width: 100px;
+
+}
+
+form {
+    padding: 0;
+}
+
+#linha {
+    border: 0;
+}
+
