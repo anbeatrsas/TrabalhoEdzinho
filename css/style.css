@@ -2,14 +2,28 @@
     border: 1px solid black;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 #header {
     display: flex;
     justify-content: center;
-    align-items: center;
+    
+    background-color: #292728;
 }
 
 ul {
     list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+#sessao-1 {
+    background-color: #F1EACD;
+    height: 46vh;
+    border-bottom: 1px solid black;
 }
 
 ul li{
