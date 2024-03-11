@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Future Web</title>
+</head>
+<body>
+    
+        <div class="contato">
+
+            <h1>Contato</h1>
+
+            <p>Envie sua mensagem e em breve entraremos em contato com você.</p>
+
+            <form method="POST" action="#">
+
+
+                <label for="nome">Nome*</label>
+
+                <input 
+                
+                type="text"
+                name="nome"
+                placeholder="Digite seu nome"
+                id="nome"
+                required
+                autocomplete="off"
+                maxlength="255"
+                pattern="^[A-Za-z\u00C0-\u00FF ]+$"
+                onkeyup="validaNome(event)"
+                
+                >
+
+                <label for="email">E-mail*</label>
+
+                <input 
+
+                type=email 
+                name="email" 
+                id="email"
+                placeholder="Digite seu email"
+                required
+                autocomplete="off"
+
+                >
+
+                <label for="celular">Celular*</label>
+
+                <input 
+
+                type="tel" 
+                name="celular" 
+                id="celular"
+                placeholder="(xx)xxxxx-xxxx"
+                required
+                autocomplete="off"
+                maxlength="12"
+
+                >
+
+
+                <button class="botao-contato">ENVIAR</button>
+
+
+            </form>
+
+        </div>
+
+
+</body>
+</html>
