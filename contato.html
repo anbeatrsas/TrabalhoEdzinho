@@ -22,9 +22,8 @@
 
             <form method="POST" action="#">
 
-
+                <div>
                 <label for="nome">Nome*</label>
-
                 <input 
                 
                 type="text"
@@ -37,8 +36,9 @@
                 pattern="^[A-Za-z\u00C0-\u00FF ]+$"
                 onkeyup="validaNome(event)"
                 
-                >
+                ></div>
 
+                <div>
                 <label for="email">E-mail*</label>
 
                 <input 
@@ -50,8 +50,9 @@
                 required
                 autocomplete="off"
 
-                >
+                ></div>
 
+                <div>
                 <label for="celular">Celular*</label>
 
                 <input 
@@ -64,7 +65,12 @@
                 autocomplete="off"
                 maxlength="12"
 
-                >
+                ></div>
+
+                <div>
+                    <label for="mensagem">Mensagem</label>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                </div>
 
 
                 <button class="botao-contato">ENVIAR</button>
