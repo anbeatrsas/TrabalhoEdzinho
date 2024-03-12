@@ -1,9 +1,16 @@
+body{
+
+    font-family: "Poppins", sans-serif
+
+}
+
+
 td .info {
 
     display: flex;
-    text-align: end;
+    float: right;
     
-    width: 100px;
+    width: 150px;
 
 }
 
