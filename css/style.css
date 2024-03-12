@@ -1,6 +1,4 @@
-* {
-    border: 1px solid black;
-}
+
 
 body {
     margin: 0;
@@ -18,6 +16,7 @@ ul {
     list-style: none;
     display: flex;
     align-items: center;
+    margin-left: 2rem;
 }
 
 #sessao-1 {
